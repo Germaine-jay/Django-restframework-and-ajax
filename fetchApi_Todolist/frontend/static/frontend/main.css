@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding:0%;
+    box-sizing:border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+body{
+    font-family:'Times New Roman';
+    color:rgb(14, 12, 12);
+    line-height: 1.2;
+    background-color: rgb(148, 142, 142);
+}
+
+.container{
+        background-color: #fff;
+        color:black;
+        max-width:450px;
+        box-shadow: 0px 3px 10px rgba(19, 18, 18, 0.2);
+        margin: 20px auto;
+        margin-bottom: 0px;
+        padding: 17px 10px;
+        position: sticky;
+}
+.container2{
+    background-color: #fff;
+    color:black;
+    max-width:450px;
+    box-shadow: 0px 3px 10px rgba(19, 18, 18, 0.2);
+    margin: 0px auto;
+    padding: 15px 10px;
+    justify-content: center;
+}
+
+#form-input input[type='submit']{
+    padding: 8.5px;
+    margin: 5px 5px;
+    box-sizing: border-box;
+    outline: none;
+    background-color: black;
+    color: #fff;
+    border: none;
+}
+
+#form-input input[type='text']{
+    border: 0px;
+    border:  1px solid rgb(19, 17, 17);
+    width: 70%;
+    padding: 7px;
+    margin: 5px 0px 0px 15px;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 17px;
+}
+
+li{
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    color: rgb(12, 7, 7);
+    margin: 2px;
+    list-style: none;
+    border:  1px solid rgb(19, 17, 17);
+}
+
+button{
+    outline: none;
+    border: none;
+    color:#fff;
+    border-radius: 4px;
+    padding:5px;
+    font-size: 13px;
+    float: right;
+    position: relative;
+}
+
+.btn-sm{
+    background-color: rgb(206, 206, 7);
+    margin-right: 2px;
+}
+
+.btn-sb{
+    background-color: rgb(16, 102, 55);
+    margin-right: 2px;
+}
+
+.btn-secondary{
+    background: rgb(161, 14, 14);
+}
+
+
+.head{
+    background-color: rgb(40, 194, 40);
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1{
+    margin: 10px 20px;
+}
+/* .h2{
+    padding: 10px 0px 10px 100px ;
+    font-size: 30px;
+} */
+
+.search-form input{
+    border: 0px;
+    border:  1px solid rgb(19, 17, 17);
+    width: 100%;
+    padding: 5px;
+    margin: 13px 0px 0px 20px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.error{
+    background-color: red;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+}
+
+.completed{
+    text-decoration: line-through;
+    background-color: rgb(172, 164, 164);
+}
+
+.hide{
+    display: none;
+}
